@@ -1,50 +1,66 @@
 # COS 201 – Computer Programming I
 
 **Student Name:** Abraham Tobi Folaranmi  
+**Programme:** Computer Science  
 **Matric Number:** 25/16103  
-**Department:** Computer Science  
-**Practical:** Week 3 – Variables and Input/Output
+**Course Code:** COS 201
 
-## Week 3 Objectives
+## Week 1: Introduction to Programming and Problem-Solving
 
-- Understand variables and data types.
-- Accept user input using the Scanner class.
-- Perform arithmetic operations.
-- Display results using output statements.
+**File:** `week01/FirstProgram.java`
 
-## Practical Exercises
+**Objective:** To create, compile and run a simple Java program.
 
-### 1. SimpleCalculator.java
-Accepts two numbers from the user and calculates their sum, difference, product, and quotient. It also checks for division by zero.
+**What I learned:**
+- Java class and main method.
+- Displaying output using `System.out.println()`.
+- Compiling and executing Java programs.
+- Understanding the importance of programming in Computer Science.
 
-### 2. AverageCalculator.java
-Accepts a student's name and three scores, calculates the total score and average, and displays the results.
+## Week 2: Development Environment and First Java Program
 
-### 3. ItemCost.java
-Accepts an item name, quantity, and unit price, then calculates and displays the total cost.
+**File:** `week02/HelloWorld.java`
+
+**Objective:** To understand the Java development environment and write, compile and execute a Java program.
+
+**What I learned:**
+- Writing a basic Java program.
+- Using output statements.
+- Understanding Java program structure.
+- Compiling and running Java source files.
+
+## Week 3: Variables and Input/Output
+
+**Files:**
+- `week03/SimpleCalculator.java`
+- `week03/AverageCalculator.java`
+- `week03/ItemCost.java`
+
+**Objective:** To understand variables, user input, calculations and output in Java.
+
+**What I learned:**
+- Declaring and using variables.
+- Receiving user input.
+- Performing arithmetic operations.
+- Calculating averages and total costs.
+- Displaying results.
 
 ## How to Run the Programs
 
-Open a terminal in the `week03` folder and use the following commands:
+Open the relevant week folder in your terminal.
 
-**SimpleCalculator**
+Compile a Java file using:
+
 ```bash
-javac SimpleCalculator.java
-java SimpleCalculator
+javac FileName.java
 ```
 
-**AverageCalculator**
+Run it using:
+
 ```bash
-javac AverageCalculator.java
-java AverageCalculator
+java FileName
 ```
 
-**ItemCost**
-```bash
-javac ItemCost.java
-java ItemCost
-```
+## Conclusion
 
-## Testing
-
-Test each program with different input values to confirm that the calculations and displayed results are correct.
+These practical exercises helped me develop basic Java programming skills and understand the fundamentals of computer programming.
